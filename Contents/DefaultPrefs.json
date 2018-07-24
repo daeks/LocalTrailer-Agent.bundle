@@ -1,0 +1,44 @@
+[
+  {
+    "id":"trailer_prefix",
+    "label":"Prefix which will be placed before filename",
+    "type":"text",
+    "default":""
+  },
+  {
+    "id":"trailer_suffix",
+    "label":"Suffix which will be placed after filename",
+    "type":"text",
+    "default":" - Trailer"
+  },
+  {
+    "id": "static_poster",
+    "label": "Poster Image Replacement",
+    "type": "bool",
+    "default": "true"
+  },
+  {
+    "id":"static_poster_path",
+    "label":"Path for static Poster Image",
+    "type":"text",
+    "default":""
+  },
+  {
+    "id": "static_background",
+    "label": "Background Image Replacement",
+    "type": "bool",
+    "default": "true"
+  },
+  {
+    "id":"static_background_path",
+    "label":"Path for static Background Image",
+    "type":"text",
+    "default":""
+  },
+  {
+    "id":"filemdate",
+    "label":"Use modified date as originally available date",
+    "type":"bool",
+    "default":"false"
+  }
+]
